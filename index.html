@@ -1,0 +1,56 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - Alura</title>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/index.css">
+</head>
+<body>
+    <header>
+        <img src="./assets/Logo.png" alt="Logo" id="logo">
+    </header>
+    
+    <main class="conteiner">
+        <section class="form-box">
+            <form action="">
+              <div class="label-info">
+                <img src="./assets/alert.svg" alt="importante" id="imgInfo">  
+                <label class="info" for="input-texto">Solo letras minúsculas, sin acentos</label>
+              </div>
+              <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Ingrese el texto aquí">
+              <div id="botones">
+                <input class="btn" type="button" value="Encriptar" id="btn-encriptar">
+                <input class="btn2" type="button" value="Desencriptar" id="btn-desencriptar">
+              </div>
+            </form>
+        </section>
+            
+        <section class="msg-box" id="cajaR">
+            <h2 id=""></h2>
+                
+            <div id="divImagen">
+              <picture>
+                <source srcset="./assets/Muñeco.png" media="screen and (max-width : 400px)">
+                <img src="./assets/Muñeco.png" id="imagen" class="img">
+              </picture>
+              <p class="texto1"><strong>Ningún mensaje fue encontrado</strong></p>
+              <p class="texto2">Ingrese el texto que deseas encriptar o desencriptar</p>
+            </div>
+            <div id="botonCopiar">
+              <input class="text-input-salida" type="text" id="msg">
+              <input class="btn3" type="button" value="Copiar" id="btn-copy">
+            </div>
+            
+        </section>        
+
+    </main>
+    <footer>
+        <p><a id="github" href="https://github.com/martin2c51" target="_blank">Martin Martin del Campo Benito</a><span class="iconify" data-icon="akar-icons:github-fill"></span> - <span class="iconify" data-icon="akar-icons:linkedin-box-fill"></span> <a id="linkedin" href="https://www.linkedin.com/in/martin2c51/" target="_blank"> Martin Martin del Campo</a></p>
+    </footer>
+    <script src="./scripts/javascript.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+
+</body>
+</html>
